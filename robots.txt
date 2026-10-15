@@ -1,0 +1,6 @@
+# Nexy Metrhon — robots.txt
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://nexymetrhon.github.io/sitemap.xml

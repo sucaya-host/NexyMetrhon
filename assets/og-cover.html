@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<style>
+  *{margin:0;padding:0;box-sizing:border-box}
+  html,body{width:1200px;height:630px;overflow:hidden}
+  body{
+    position:relative;background:#F9F9F7;color:#111111;
+    font-family:'Lora',Georgia,serif;
+  }
+  .toprule{position:absolute;top:0;left:0;right:0;height:10px;background:#111111}
+  .redsquare{position:absolute;top:10px;left:0;width:220px;height:10px;background:#CC0000}
+  .inner{position:absolute;inset:10px 0 0 0;border:1px solid #111111;border-top:0;padding:56px 72px;display:flex;flex-direction:column}
+  .meta{display:flex;justify-content:space-between;font-family:'JetBrains Mono','Courier New',monospace;
+    font-size:16px;letter-spacing:.22em;text-transform:uppercase;color:#525252;
+    border-bottom:1px solid #111111;padding-bottom:18px}
+  h1{font-family:'Playfair Display','Times New Roman',serif;font-weight:900;
+    font-size:132px;line-height:.9;letter-spacing:-.035em;margin-top:42px}
+  .tag{font-family:'Playfair Display','Times New Roman',serif;font-style:italic;font-weight:400;
+    font-size:44px;line-height:1.1;margin-top:30px;max-width:900px}
+  .spacer{flex:1}
+  .bottom{display:flex;justify-content:space-between;align-items:center;gap:24px;
+    border-top:3px solid #111111;padding-top:20px;
+    font-family:'JetBrains Mono','Courier New',monospace;font-size:18px;letter-spacing:.14em;text-transform:uppercase;color:#111111}
+  .tags{display:flex;gap:10px}
+  .tag-chip{border:1px solid #111111;padding:8px 14px;font-size:15px;letter-spacing:.16em}
+</style>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Lora:ital,wght@0,400;1,400&family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&display=swap">
+</head>
+<body>
+  <div class="toprule"></div>
+  <div class="redsquare"></div>
+  <div class="inner">
+    <div class="meta">
+      <span>Vol. 1 — No. 1</span>
+      <span>Technology Development Company &amp; Digital Studio</span>
+    </div>
+
+    <h1>NEXY METRHON</h1>
+    <p class="tag">Custom Technology. Built for Real Business.</p>
+
+    <div class="spacer"></div>
+
+    <div class="bottom">
+      <span>Batubulan, Gianyar — Bali, ID</span>
+      <div class="tags">
+        <span class="tag-chip">Web</span>
+        <span class="tag-chip">Mobile</span>
+        <span class="tag-chip">IoT</span>
+        <span class="tag-chip">Robotics</span>
+        <span class="tag-chip">Automation</span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
